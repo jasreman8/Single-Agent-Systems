@@ -22,3 +22,10 @@ Project 3: Implement SQL ReAct agent using LangGraph and LangChain SQL toolkit
   - Created a simple conversational interface that executes SQL queries safely,
   - Demonstrated how LangGraph can serve as a lightweight NL-to-SQL agent framework,
   - Added documentation explaining workflow, tool use, and example queries.
+
+Project 4: Implement a self-reflective RAG agent using LangGraph
+  - Built a LangGraph RAG workflow with explicit decision nodes for context relevance,
+  - Added a reflection step to check retrieved chunks against the user’s question,
+  - Implemented query rewriting and retrieval retry when context is insufficient,
+  - Wired the agent to generate precise answers only when relevant context is found,
+  - Documented the workflow to highlight how self-reflection improves reliability
