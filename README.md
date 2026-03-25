@@ -1,11 +1,10 @@
 # Single-Agent-Systems
 This repository contains various single-agent projects that were created using tools like CrewAI and LangGraph:
 
-Project 1: Implement ReAct-based e-commerce customer support agent with CrewAI and LangGraph
+Project 1: Built a single-agent customer support system using CrewAI, tool calling, and ReAct
+  - Implemented a single-agent e-commerce support workflow using CrewAI and ReAct,
   - Define tools for handling orders, products, returns, and escalations,
-  - Implement single-agent ReAct loop with CrewAI task and agent definitions,
-  - Orchestrate agent workflow with LangGraph,
-  - Demonstrate the function-as-tool pattern in a single-agent setup.
+  - Connected tools to a support agent that autonomously reasons, selects tools, and responds to customer queries within a sequential crew setup.
 
 Project 2: Implement ReAct-based e-commerce customer support agent using pre-built and custom ReAct workflows,
   - Added pre-built ReAct agent using `create_react_agent` from LangChain,
