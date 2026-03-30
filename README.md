@@ -6,12 +6,10 @@ Project 1: Built a single-agent customer support system using CrewAI, tool calli
   - Define tools for handling orders, products, returns, and escalations,
   - Connected tools to a support agent that autonomously reasons, selects tools, and responds to customer queries within a sequential crew setup.
 
-Project 2: Implement ReAct-based e-commerce customer support agent using pre-built and custom ReAct workflows,
-  - Added pre-built ReAct agent using `create_react_agent` from LangChain,
-  - Implemented a custom ReAct agent by wiring functions/tools into a LangGraph workflow,
-  - Demonstrated use of functions as tools in a single-agent conversational system,
-  - Included examples for handling orders, products, returns, and escalation scenarios,
-  - Documented differences between high-level and custom ReAct approaches.
+Project 2: Implemented a single-agent e-commerce support workflow using LangGraph and ReAct:
+  - Added tool-based functions for order status, product inventory, returns, and escalation.
+  - Demonstrated both a pre-built ReAct agent and a custom ReAct flow for autonomous tool selection and customer query resolution.
+  - Demonstrated use of functions as tools in a single-agent conversational system.
 
 Project 3: Implement SQL ReAct agent using LangGraph and LangChain SQL toolkit
   - Added AI agent using LangGraph's `create_react_agent` pre-built workflow,
